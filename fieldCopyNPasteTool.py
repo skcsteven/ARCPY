@@ -1,3 +1,12 @@
+'''
+USE OF THIS SCRIPT: This script is particular useful for when you have a pair of same row size feature classes, tables, or combination and you want to copy the values
+of a field from the source table/feature into a field in the destination table/feature. With modification of the code in under the main section and respective parameters
+in ArcGIS, you can reshape this script for the amount of fields you wish to copy at a certain time.
+
+NOTE: the code as it is right now requires 4 mandatory parameters to be configured in ArcGIS: source layer, destination layer, source field1, destination field1. You must
+configure the parameters with correct data types. Also, the code now includes 6 additional pairs of source/destination fields so those must be entered in the parameter
+tab under script tool properties if you wish to run the code as is.
+'''
 import arcpy
 ### function initialization ###
 def fieldCopyNPaste(sourceLayer, destLayer, sourceField, destField):
