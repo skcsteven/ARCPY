@@ -9,3 +9,9 @@ This is a topic-oriented course focusing on the examination of concepts, techniq
 - Map animation  
 - Visualizing uncertainty 
 - Web mapping 
+
+## Lab and Projects
+- [Final Project: McDonald's and Socioeconomic Trends in Ohio (ArcGIS StoryMap)](https://arcg.is/0uy0ur0)
+ - [Foreign Born US Citizens by County in Arkansas (ArcGIS Dashboard)](https://arcg.is/0qXTfD)
+
+
